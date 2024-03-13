@@ -1,5 +1,5 @@
 
-var message = document.getElementById('message');
+var message = document.getElementById ('message');
 var link = document.getElementById('link');
 var btn = document.getElementById('button');
 var form = document.getElementById('form');

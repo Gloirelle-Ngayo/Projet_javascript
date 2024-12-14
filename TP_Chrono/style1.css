@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+VA:wght@100..400&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(83, 232, 182);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;  
+    font-family: "Playwrite DE VA", cursive;
+}
+#chrono{
+
+    padding: 8px;
+    width: 25%;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+}
+#heur, #min, #sec, #milisec{
+    padding: 8px;
+}
+#para{
+    border: 1px solid rgb(89, 159, 136);
+    padding: 5px;
+    border-radius: 5px;
+}
+#Start, #Stop, #Reset{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(83, 232, 182);
+    padding: 8px;
+    font-size: 15px;
+    width: 100px;
+    letter-spacing: 1px;
+    border: 0;
+    transition: 0.5s;
+}
+#btn{
+    display: flex;
+    justify-content: space-between;
+}
+button:hover{
+    transform: scale(0.9);
+}
